@@ -1,0 +1,65 @@
+// colors[theme="default"]
+$color-text: black;
+$color-bg: white;
+$color-sidebar-bg: #f0f0f0;
+$color-border: black;
+$color-accent: #92ceff;
+$color-outline: #c4e5ff;
+$color-link: #92ceff;
+$color-link-hover: #6493b7;
+
+// colors[theme="dark"]
+$dark-color-text: white;
+$dark-color-bg: #15202c;
+$dark-color-sidebar-bg: #101723;
+$dark-color-border: #38444c;
+$dark-color-accent: #92ceff;
+$dark-color-outline: #547ca4;
+$dark-color-link: #92ceff;
+$dark-color-link-hover: #a3faff;
+
+// colors[theme="black"]
+$black-color-text: white;
+$black-color-bg: black;
+$black-color-sidebar-bg: black;
+$black-color-border: #38444c;
+$black-color-accent: #92ceff;
+$black-color-outline: #547ca4;
+$black-color-link: #92ceff;
+$black-color-link-hover: #a3faff;
+
+// fonts
+$font-family: 'Ubuntu Mono', 'Consolas', 'Courier New', monospace;
+$font-path: '../fonts';
+
+// size
+$font-size: 2.1rem;
+$line-height: 1.4em;
+
+$font-size-sm: 1.6rem;
+$font-size-lg: 2.6rem;
+
+// grid
+$columns: 12;
+$atom: (100% / $columns);
+
+$break_xs: 560px;
+$break_sm: 780px;
+$break_md: 960px;
+$break_lg: 1100px;
+
+$offset: 30px;
+$offset_xs: $offset;
+$offset_sm: $offset;
+$offset_md: $offset;
+$offset_lg: $offset;
+
+$offset_one_side: ($offset / 2);
+$offset_xs_one_side: ($offset_xs / 2);
+$offset_sm_one_side: ($offset_sm / 2);
+$offset_md_one_side: ($offset_md / 2);
+$offset_lg_one_side: ($offset_lg / 2);
+
+$fields: 15px;
+
+

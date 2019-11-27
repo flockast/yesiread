@@ -1,0 +1,55 @@
+:root {
+  --color-text: #{$color-text};
+  --color-bg: #{$color-bg};
+  --color-sidebar-bg: #{$color-sidebar-bg};
+  --color-border: #{$color-border};
+  --color-accent: #{$color-accent};
+  --color-outline: #{$color-outline};
+  --color-link: #{$color-link};
+  --color-link-hover: #{$color-link-hover};
+
+  --font-size: #{$font-size};
+  --line-height: #{$line-height};
+}
+
+[theme="dark"]:root {
+  --color-text: #{$dark-color-text};
+  --color-bg: #{$dark-color-bg};
+  --color-sidebar-bg: #{$dark-color-sidebar-bg};
+  --color-border: #{$dark-color-border};
+  --color-accent: #{$dark-color-accent};
+  --color-outline: #{$dark-color-outline};
+  --color-link: #{$dark-color-link};
+  --color-link-hover: #{$dark-color-link-hover};
+}
+
+[theme="black"]:root {
+  --color-text: #{$black-color-text};
+  --color-bg: #{$black-color-bg};
+  --color-sidebar-bg: #{$black-color-sidebar-bg};
+  --color-border: #{$black-color-border};
+  --color-accent: #{$black-color-accent};
+  --color-outline: #{$black-color-outline};
+  --color-link: #{$black-color-link};
+  --color-link-hover: #{$black-color-link-hover};
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: underline;
+  &:hover {
+    color: var(--color-link-hover);
+  }
+}
+
+body {
+  font-family: $font-family;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  color: var(--color-text);
+}

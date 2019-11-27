@@ -1,0 +1,29 @@
+/* flex */
+.d-flex { display: flex; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.justify-around { justify-content: space-around; }
+.justify-start { justify-content: flex-start; }
+.justify-end { justify-content: flex-end; }
+.align-items-start { align-items: flex-start; }
+.align-items-center { align-items: center; }
+.align-items-end { align-items: flex-end; }
+.align-items-stretch { align-items: stretch; }
+.align-items-baseline { align-items: baseline; }
+
+/* displays and hidden */
+.only-desktop {
+  display: none !important;
+  @include md-block() {
+    display: block !important;
+  }
+}
+
+.only-mobile {
+  display: block;
+  @include md-block() {
+    display: none !important;
+  }
+}
+
+.no-scroll { overflow: hidden; }
