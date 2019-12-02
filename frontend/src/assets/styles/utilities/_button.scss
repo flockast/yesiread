@@ -2,7 +2,7 @@
   background: none;
   display: inline-block;
   border: .2rem solid var(--color-accent);
-  border-radius: .3rem;
+  border-radius: $border-radius;
   font-family: inherit;
   font-size: 1.6rem;
   color: var(--color-accent);

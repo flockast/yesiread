@@ -10,6 +10,8 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+
 import Sidebar from './Sidebar'
 import MainContent from './MainContent'
 
@@ -18,21 +20,13 @@ export default {
     Sidebar,
 		MainContent
   },
-  computed: {
-    theme() {
-      return this.$store.getters['settings/getTheme']
-    },
-    size() {
-      return this.$store.getters['settings/getSize']
-    }
-  },
+  computed: mapGetters('settings', ['theme', 'sizePx']),
   mounted() {
     // set user theme
     document.documentElement.setAttribute('theme', this.theme);
 
     // set user size
-    const size = Math.ceil(this.size * 15);
-    document.documentElement.style.fontSize = `${size}px`;
+    document.documentElement.style.fontSize = `${this.sizePx}px`;
 	}
 }
 </script>

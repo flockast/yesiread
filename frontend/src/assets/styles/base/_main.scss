@@ -1,5 +1,6 @@
 :root {
   --color-text: #{$color-text};
+  --color-text-grey: #{$color-text-grey};
   --color-bg: #{$color-bg};
   --color-sidebar-bg: #{$color-sidebar-bg};
   --color-border: #{$color-border};
@@ -14,6 +15,7 @@
 
 [theme="dark"]:root {
   --color-text: #{$dark-color-text};
+  --color-text-grey: #{$color-text-grey};
   --color-bg: #{$dark-color-bg};
   --color-sidebar-bg: #{$dark-color-sidebar-bg};
   --color-border: #{$dark-color-border};
@@ -25,6 +27,7 @@
 
 [theme="black"]:root {
   --color-text: #{$black-color-text};
+  --color-text-grey: #{$color-text-grey};
   --color-bg: #{$black-color-bg};
   --color-sidebar-bg: #{$black-color-sidebar-bg};
   --color-border: #{$black-color-border};

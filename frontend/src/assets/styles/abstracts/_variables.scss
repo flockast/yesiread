@@ -1,5 +1,6 @@
 // colors[theme="default"]
 $color-text: black;
+$color-text-grey: #999;
 $color-bg: white;
 $color-sidebar-bg: #f0f0f0;
 $color-border: black;
@@ -10,6 +11,7 @@ $color-link-hover: #6493b7;
 
 // colors[theme="dark"]
 $dark-color-text: white;
+$color-text-grey: #999;
 $dark-color-bg: #15202c;
 $dark-color-sidebar-bg: #101723;
 $dark-color-border: #38444c;
@@ -20,6 +22,7 @@ $dark-color-link-hover: #a3faff;
 
 // colors[theme="black"]
 $black-color-text: white;
+$color-text-grey: #999;
 $black-color-bg: black;
 $black-color-sidebar-bg: black;
 $black-color-border: #38444c;
@@ -29,7 +32,7 @@ $black-color-link: #92ceff;
 $black-color-link-hover: #a3faff;
 
 // fonts
-$font-family: 'Ubuntu Mono', 'Consolas', 'Courier New', monospace;
+$font-family: 'Fira Code', 'Consolas', 'Courier New', monospace;
 $font-path: '../fonts';
 
 // size
@@ -38,6 +41,9 @@ $line-height: 1.4em;
 
 $font-size-sm: 1.6rem;
 $font-size-lg: 2.6rem;
+
+$border-radius: 4px;
+$border-thin: 2px;
 
 // grid
 $columns: 12;

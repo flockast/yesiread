@@ -4,7 +4,7 @@
   border: .1rem solid var(--color-accent);
   font-family: inherit;
   font-size: 1.8rem;
-  border-radius: .3rem;
+  border-radius: $border-radius;
   padding: 2rem 2rem;
   appearance: none;
   &:focus {
