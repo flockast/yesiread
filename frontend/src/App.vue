@@ -6,15 +6,13 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+
 import Auth from './components/Auth'
 import Main from './components/Main'
 
 export default {
-  data() {
-    return {
-      isAuth: true
-    }
-  },
+  computed: mapGetters('user', ['isAuth']),
   components: {
     Auth,
     Main

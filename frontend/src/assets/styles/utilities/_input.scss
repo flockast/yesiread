@@ -3,17 +3,21 @@
   background: #ffffff;
   border: .1rem solid var(--color-accent);
   font-family: inherit;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   border-radius: $border-radius;
-  padding: 2rem 2rem;
+  padding: 0.85rem 1rem;
   appearance: none;
   &:focus {
     outline: none;
-    box-shadow: 0 0 0 .1rem var(--color-outline);
-    border-color: var(--color-outline);
+    box-shadow: 0 0 0 .2rem var(--color-outline);
   }
   &--full {
     width: 100%;
+  }
+  &--sm {
+    font-size: 1.4rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
   &--error {
     box-shadow: 0 0 .2em .1rem #ec3a40;
